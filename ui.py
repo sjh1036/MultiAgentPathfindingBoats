@@ -295,7 +295,7 @@ def formulateProblem():
 # UI Setup
 root = Tk()
 root.title("Ducklings")
-root.geometry('1000x400')
+root.geometry('800x400')
 
 row = 0
 
@@ -411,7 +411,7 @@ whatIfText.grid(row=row, column=1, sticky=W)
 
 row+=1
 
-generationLabel = tk.Label(root, text="Enter line generation type (0 = column, 1 = random, 2 = broken column, 3 = segmented column)")
+generationLabel = tk.Label(root, text="Enter line generation type (0 = column, 1 = random, 2 = BC, 3 = SC, 4 = BSC)")
 generationLabel.grid(row=row, column=0, sticky=E, padx=10)
 
 generationText = tk.Text(master=root, height=1, width=30, )

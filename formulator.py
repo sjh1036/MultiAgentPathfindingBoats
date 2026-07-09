@@ -7,9 +7,6 @@ import solver
 
 
 def formulate(fileName, numBoats, weights, surveySpeed, transitSpeed, numGenLines, toPDF, whatIfs, lineGenerationType, writeToFileName, numSteps, corner):
-    
-    DISPLAY_PROBLEM_INSTANCE = False   
-
     #x min and max for graphing purposes
     x_max = float(-inf)
     x_min = float(inf)
